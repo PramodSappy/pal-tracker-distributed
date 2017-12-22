@@ -14,7 +14,7 @@ import java.util.TimeZone;
 @EnableWebSecurity
 @EnableResourceServer
 @EnableEurekaClient
-@SpringBootApplication(exclude = RabbitAutoConfiguration.class)
+@SpringBootApplication
 @ComponentScan({
     "io.pivotal.pal.tracker.accounts",
     "io.pivotal.pal.tracker.restsupport",
